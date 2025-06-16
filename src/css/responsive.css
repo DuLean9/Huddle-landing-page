@@ -1,0 +1,50 @@
+@media (max-width: 768px) {
+
+    body {
+        background-image: url(/src/images/bg-mobile.svg);
+    }
+
+    header > div {
+        margin-bottom: 0;
+    }
+
+    header > div .logo {
+        width: 250px;
+        padding-left: 20px;
+    }
+
+    main .content {
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 20px;
+    }
+
+    main .content > div .illustration {
+        max-width: 100%;
+        height: auto;
+    }
+
+    main .content .content-info {
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    main .content .content-info .btn {
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto;
+        font-size: 18px;
+    }
+
+    footer .social {
+        justify-content: center;
+    }
+
+}

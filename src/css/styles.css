@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    background-color: var(--color-bg);
+    background-image: url(/src/images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+header > div {
+    padding-block: 50px;
+    margin-bottom: 70px;
+}
+
+main .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+main .content .content-info {
+    padding: 40px;
+}
+
+main .content .content-info .info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+main .content .content-info .btn {
+    padding: 18px 80px;
+    color: var(--color-bg);
+    font-size: 20px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    box-shadow: 3px 5px 10px #343333;
+}
+
+main .content .content-info .btn:hover {
+    background-color: var(--color-hover);
+    color: #ffffff;
+}
+
+footer .social {
+    display: flex;
+    justify-content: end;
+    padding-block: 40px;
+    gap: 20px;
+}
+
+footer .social .fab {
+    font-size: 40px;
+    transition: .3s ease-in;
+    color: #ffffff;
+}
+
+footer .social .fab:hover {
+    color: var(--color-hover);
+    transform: scale(1.1);
+}
