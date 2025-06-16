@@ -1,7 +1,7 @@
 body {
     height: 100vh;
     background-color: var(--color-bg);
-    background-image: url('/src/images/bg-desktop.svg');
+    background-image: url(../images/bg-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
